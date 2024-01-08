@@ -1,23 +1,23 @@
 //Задание 1
 
-// let list = {}
+let list = {}
     
-//     for (i=1; i<=2; i++) {
-//         let nom = prompt('Ваше имя');
-//         let age = +prompt('Ваш возраст');  
-//         let key = i
-//         list[key] = {
-//             nom: nom,
-//             age: age
-//         }
-//     }
-//     for (let key in list) {
-//         console.log(`Пользователь ${key}`);
-//         console.log(`Имя ${list[key].nom}`);
-//         console.log(`Возраст ${list[key].age}`);
-//     }
+    for (i=1; i<=2; i++) {
+        let nom = prompt('Ваше имя');
+        let age = +prompt('Ваш возраст');  
+        let key = i
+        list[key] = {
+            nom: nom,
+            age: age
+        }
+    }
+    for (let key in list) {
+        console.log(`Пользователь ${key}`);
+        console.log(`Имя ${list[key].nom}`);
+        console.log(`Возраст ${list[key].age}`);
+    }
 
-//     console.log(list)  
+    console.log(list)  
 
     // Задача 2
 
